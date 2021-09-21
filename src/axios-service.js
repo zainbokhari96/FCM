@@ -4,7 +4,6 @@ const baseURL = 'http://localhost:3000/api/'
 
 const service = {
     post: (endpoint,token,data)  => {
-        console.log(endpoint)
         const instance = axios.create({
             baseURL : baseURL,
             headers : {
